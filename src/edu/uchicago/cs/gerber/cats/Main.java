@@ -13,10 +13,7 @@ public class Main extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        Intent itn = new Intent(Intent.ACTION_WEB_SEARCH );
-        itn.putExtra(SearchManager.QUERY, "1 CNY in USD");
-        startActivity(itn);
-        
+
         
    // Intent	itn = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com/"));
     
